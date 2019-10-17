@@ -1,0 +1,14 @@
+/Users/RobinCarter/Projects/RokredTesting/RokredTesting/bin/Debug/netcoreapp2.2/RokredTesting.deps.json
+/Users/RobinCarter/Projects/RokredTesting/RokredTesting/bin/Debug/netcoreapp2.2/RokredTesting.runtimeconfig.json
+/Users/RobinCarter/Projects/RokredTesting/RokredTesting/bin/Debug/netcoreapp2.2/RokredTesting.runtimeconfig.dev.json
+/Users/RobinCarter/Projects/RokredTesting/RokredTesting/bin/Debug/netcoreapp2.2/RokredTesting.dll
+/Users/RobinCarter/Projects/RokredTesting/RokredTesting/bin/Debug/netcoreapp2.2/RokredTesting.pdb
+/Users/RobinCarter/Projects/RokredTesting/RokredTesting/obj/Debug/netcoreapp2.2/RokredTesting.csproj.CoreCompileInputs.cache
+/Users/RobinCarter/Projects/RokredTesting/RokredTesting/obj/Debug/netcoreapp2.2/RokredTesting.RazorAssemblyInfo.cache
+/Users/RobinCarter/Projects/RokredTesting/RokredTesting/obj/Debug/netcoreapp2.2/RokredTesting.RazorAssemblyInfo.cs
+/Users/RobinCarter/Projects/RokredTesting/RokredTesting/obj/Debug/netcoreapp2.2/RokredTesting.AssemblyInfoInputs.cache
+/Users/RobinCarter/Projects/RokredTesting/RokredTesting/obj/Debug/netcoreapp2.2/RokredTesting.AssemblyInfo.cs
+/Users/RobinCarter/Projects/RokredTesting/RokredTesting/obj/Debug/netcoreapp2.2/RokredTesting.RazorTargetAssemblyInfo.cache
+/Users/RobinCarter/Projects/RokredTesting/RokredTesting/obj/Debug/netcoreapp2.2/RokredTesting.dll
+/Users/RobinCarter/Projects/RokredTesting/RokredTesting/obj/Debug/netcoreapp2.2/RokredTesting.pdb
+/Users/RobinCarter/Projects/RokredTesting/RokredTesting/obj/Debug/netcoreapp2.2/RokredTesting.csprojAssemblyReference.cache
