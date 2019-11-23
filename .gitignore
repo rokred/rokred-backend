@@ -1,0 +1,7 @@
+
+RokredBackend/RokredBackend/bin
+RokredBackend/RokredBackend/obj
+*.db
+*.cache
+*.props
+RokredBackend/RokredBackend/obj/project.assets.json
