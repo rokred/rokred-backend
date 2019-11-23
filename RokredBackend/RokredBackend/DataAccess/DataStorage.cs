@@ -20,6 +20,8 @@ namespace RokredBackend.DataAccess
         public DbSet<Opinion> Opinions { get; set; }
 
         public DbSet<Subject> Subjects { get; set; }
+        
+        public DbSet<Category> Categories { get; set; }
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {

@@ -19,6 +19,16 @@ namespace RokredBackend.Controllers
                 return db.Opinions.ToList();
             }
         }
+        
+        [Route("api/rokred/getallcategories")]
+        [HttpGet]
+        public ActionResult<IEnumerable<Category>> GetAllCategories()
+        {
+            using (var db = new DataStorage())
+            {
+                return db.Categories.ToList();
+            }
+        }
 
         [Route("api/rokred/getallsubjects")]
         [HttpGet]
@@ -139,6 +149,11 @@ namespace RokredBackend.Controllers
                 foreach (var currentOpinion in State.CurrentOpinions)
                 {
                     db.Opinions.Add(currentOpinion);
+                }
+                
+                foreach (var currentCategory in State.CurrentCategories)
+                {
+                    db.Categories.Add(currentCategory);
                 }
 
                 db.SaveChanges();

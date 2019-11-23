@@ -25,5 +25,21 @@ namespace RokredBackend.DataAccess
             new Subject { Guid = SubjectOneGuid.ToString(), MySubject = "Comic Book Films" },
             new Subject { Guid = SubjectTwoGuid.ToString(), MySubject = "Days of the Week" },
         };
+        
+        public static List<Category> CurrentCategories = new List<Category>
+        {
+            new Category { Guid = Guid.NewGuid().ToString(), ParentGiud = "", IsNew = true , Name="People" },
+            new Category { Guid = Guid.NewGuid().ToString(), ParentGiud = "", IsNew = true , Name="Entertainment" },
+            new Category { Guid = Guid.NewGuid().ToString(), ParentGiud = "", IsNew = true , Name="Sport" },
+            new Category { Guid = Guid.NewGuid().ToString(), ParentGiud ="", IsNew = true , Name="Places of the Earth" },
+            new Category { Guid = Guid.NewGuid().ToString(), ParentGiud = "", IsNew = true , Name="Events in my and everyone else's lives" },
+            new Category { Guid = Guid.NewGuid().ToString(), ParentGiud = "", IsNew = true , Name="Science and Technology" },
+            new Category { Guid = Guid.NewGuid().ToString(), ParentGiud = "", IsNew = true , Name="People in Entertainment" },
+            new Category { Guid = Guid.NewGuid().ToString(), ParentGiud = "", IsNew = true , Name="History and Literature" },
+            new Category { Guid = Guid.NewGuid().ToString(), ParentGiud = "", IsNew = true , Name="People in Business" },
+            new Category { Guid = Guid.NewGuid().ToString(), ParentGiud = "", IsNew = true , Name="Movies and TV" },
+            new Category { Guid = Guid.NewGuid().ToString(), ParentGiud = "", IsNew = true , Name="Music" },
+            new Category { Guid = Guid.NewGuid().ToString(), ParentGiud = "", IsNew = true , Name="MMA" },
+        };
     }
 }
