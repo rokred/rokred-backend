@@ -11,6 +11,8 @@ namespace RokredBackend.Models
         
         public bool IsNew { get; set; }
         
+        public bool IsSelected { get; set; }
+        
         public string Name { get; set; }
     }
 }

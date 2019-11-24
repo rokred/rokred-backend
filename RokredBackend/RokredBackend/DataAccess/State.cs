@@ -28,18 +28,18 @@ namespace RokredBackend.DataAccess
         
         public static List<Category> CurrentCategories = new List<Category>
         {
-            new Category { Guid = Guid.NewGuid().ToString(), ParentGiud = "", IsNew = true , Name="People" },
-            new Category { Guid = Guid.NewGuid().ToString(), ParentGiud = "", IsNew = true , Name="Entertainment" },
-            new Category { Guid = Guid.NewGuid().ToString(), ParentGiud = "", IsNew = true , Name="Sport" },
-            new Category { Guid = Guid.NewGuid().ToString(), ParentGiud ="", IsNew = true , Name="Places of the Earth" },
-            new Category { Guid = Guid.NewGuid().ToString(), ParentGiud = "", IsNew = true , Name="Events in my and everyone else's lives" },
-            new Category { Guid = Guid.NewGuid().ToString(), ParentGiud = "", IsNew = true , Name="Science and Technology" },
-            new Category { Guid = Guid.NewGuid().ToString(), ParentGiud = "", IsNew = true , Name="People in Entertainment" },
-            new Category { Guid = Guid.NewGuid().ToString(), ParentGiud = "", IsNew = true , Name="History and Literature" },
-            new Category { Guid = Guid.NewGuid().ToString(), ParentGiud = "", IsNew = true , Name="People in Business" },
-            new Category { Guid = Guid.NewGuid().ToString(), ParentGiud = "", IsNew = true , Name="Movies and TV" },
-            new Category { Guid = Guid.NewGuid().ToString(), ParentGiud = "", IsNew = true , Name="Music" },
-            new Category { Guid = Guid.NewGuid().ToString(), ParentGiud = "", IsNew = true , Name="MMA" },
+            new Category { Guid = Guid.NewGuid().ToString(), ParentGiud = "", IsNew = true, IsSelected = true, Name="People" },
+            new Category { Guid = Guid.NewGuid().ToString(), ParentGiud = "", IsNew = true , IsSelected = true , Name="Entertainment" },
+            new Category { Guid = Guid.NewGuid().ToString(), ParentGiud = "", IsNew = true, IsSelected = true , Name="Sport" },
+            new Category { Guid = Guid.NewGuid().ToString(), ParentGiud ="", IsNew = true, IsSelected = true , Name="Places of the Earth" },
+            new Category { Guid = Guid.NewGuid().ToString(), ParentGiud = "", IsNew = true, IsSelected = true , Name="Events in my and everyone else's lives" },
+            new Category { Guid = Guid.NewGuid().ToString(), ParentGiud = "", IsNew = true, IsSelected = true , Name="Science and Technology" },
+            new Category { Guid = Guid.NewGuid().ToString(), ParentGiud = "", IsNew = true, IsSelected = true , Name="People in Entertainment" },
+            new Category { Guid = Guid.NewGuid().ToString(), ParentGiud = "", IsNew = true, IsSelected = true , Name="History and Literature" },
+            new Category { Guid = Guid.NewGuid().ToString(), ParentGiud = "", IsNew = true, IsSelected = true , Name="People in Business" },
+            new Category { Guid = Guid.NewGuid().ToString(), ParentGiud = "", IsNew = true, IsSelected = true , Name="Movies and TV" },
+            new Category { Guid = Guid.NewGuid().ToString(), ParentGiud = "", IsNew = true, IsSelected = true , Name="Music" },
+            new Category { Guid = Guid.NewGuid().ToString(), ParentGiud = "", IsNew = true, IsSelected = true , Name="MMA" },
         };
     }
 }
